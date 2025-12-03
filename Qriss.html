@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembayaran QRIS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #008cba; /* Warna QRIS */
+        }
+        .qr-code {
+            width: 100%;
+            height: auto;
+            border: 5px solid #008cba;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .instructions {
+            text-align: left;
+            margin-top: 15px;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+        .instructions p {
+            font-size: 16px;
+            color: #555;
+        }
+        .instructions strong {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Scan untuk Membayar dengan QRIS</h1>
+        
+
+[Image of a QR code]
+
+        <img src="qriss.jpg" alt="Kode Pembayaran QRIS" class="qr-code">
+
+        <div class="instructions">
+            <p><strong>Langkah Pembayaran:</strong></p>
+            <ol>
+                <li>Buka aplikasi pembayaran Anda (seperti GoPay, OVO, Dana, mobile banking, dll.).</li>
+                <li>Pilih fitur **Scan** atau **Pindai**.</li>
+                <li>Arahkan kamera ke kode QRIS di atas.</li>
+                <li>Pastikan jumlah pembayaran dan nama *merchant* sudah benar.</li>
+                <li>Masukkan **PIN** Anda untuk menyelesaikan transaksi.</li>
+            </ol>
+            <p style="font-style: italic; color: #cc0000;">*QR Code ini harus sudah terdaftar dan valid melalui Penyedia Jasa Pembayaran (PJP) yang sah.</p>
+        </div>
+    </div>
+
+</body>
+</html>
